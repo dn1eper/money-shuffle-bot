@@ -1,0 +1,1 @@
+worker: java $JAVA_OPTS -Dserver.port=$PORT -classpath target/classes:target/dependency/* org.telegram.moneyshuffle.App
